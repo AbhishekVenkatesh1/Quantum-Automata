@@ -9,7 +9,7 @@ Algorithm includes converting state machines to exor-friendly flowchart form, go
 
 The code initially creates two nodes for the start and end states. Can create more initial state nodes if there are more than two states.
 
-There are various methods to create input nodes in between the states. Continuity is created by having the input node have true and false nodes which makes it go to another input node or another state node when the current node is either true or false. Reversibility is accounted for by including previous true and previous false nodes which shows the input or state nodes that led to the current node.
+There are various methods to create input nodes in between the states and account for digital quantum logic. Continuity is created by having the input node have true and false nodes which makes it go to another input node or another state node when the current node is either true or false. Reversibility is accounted for by including previous true and previous false nodes which shows the input or state nodes that led to the current node.
 
 There are methods to account for adding intermediate states in between input nodes by using the same logic above.
 
